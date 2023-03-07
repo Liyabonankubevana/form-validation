@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="ResumeF.css">
+    <title>Resume</title>
+</head>
+<body>
+    <!--Menu Icon-->
+    <header class="header">
+        <a href="/" class="logo">LN</a> 
+        <input class="menu-btn" type="checkbox" id="menu-btn"/>
+        <label class="menu-icon" for="menu-btn"><span class="nav-icon"></span></label>
+        <ul class="menu">
+            <li><a href="#About">About</a></li>
+            <li><a href="#Experience">Experience</a></li>
+            <li><a href="#Skills">Skills</a></li>
+            <li><a href="#Projects">Projects</a></li>
+        </ul>
+    </header> 
+
+    <!--First page-->
+    <section class="landing">
+        <div class="name">
+            <h5>I'm Liyabona Nkubevana,</h5>
+            <p>Over 5 years of professional experience conducting UX research and designing interactive end-to-end user flows. 
+            I enjoy working in close collaboration with teams across technology, business and design.</p>
+        </div> 
+    </section>
+
+    <!--Carousel--> 
+<section class="carousel">
+    <div class="slides">
+        <div><img src="/Images/KG4.jpg" alt="Kagiso Rabada" height="300px" width="300"></div>
+        <div><img src="/Images/KG4.jpg" alt="Kagiso Rabada" height="300px" width="300"></div>
+        <div><img src="/Images/KG.png" alt="Kagiso Rabada" height="300px" width="300"></div>
+    </div>
+</section>
+
+<!--Footer section-->
+<footer>
+    <div class="form">
+    <form action="#" method="get">
+        <ol>
+        <li><label for="Name">Name:</label></li>
+        <li><input type="text" name="Name" required></li>
+        <li><label for="Email">Email:</label></li>
+        <li><input type="email" name="Email" required></li>
+        <br>
+        <li><select name="Rate" id="Rate">
+            <option value="Rate">Good</option>
+            <option value="Rate">Okay</option>
+            <option value="Rate">You can do better</option>
+        </select></li>
+
+        <br>
+
+       <li><label for="feedbackStatement">Feedback:</label>
+    <textarea name="feedbackStatement" cols="50" rows="7">Please provide feedback...</textarea>
+    <input type="submit" name="submit" value="Submit Feedback"></li>
+        </ol>
+    </form>
+    </div>
+</footer>
+
+</body>
+</html>
